@@ -4,11 +4,12 @@
 PROV-IO is an I/O-centric provenance management framework for scientific data and workflows. It provides an interface for data provenance tracking and stores provenance as RDF triples. [PROV-IO data model](https://github.com/hpc-io/prov-io/blob/master/doc/provio-latest.png) follows [W3C PROV-DM](https://www.w3.org/TR/prov-dm/) and is an extension of it. PROV-IO has been integarted with [HDF5 vol-provenance connector](https://github.com/hpc-io/vol-provenance) to track data provenance of HDF5 applications. PROV-IO has been tested on Ubuntu 18.04 and Cray Linux.
 
 ## Publications
-Please cite the following paper if your project uses PROV-IO:  <br /> 
+Please cite the following papers if you find our work useful:  <br /> 
+[PROV-IO+: A Cross-Platform Provenance Framework for Scientific Data on HPC Systems](10.1109/TPDS.2024.3374555) ([TPDS'24]([https://www.hpdc.org/2022/](https://www.computer.org/csdl/journal/td/2024/05/10472875/1ViYUimklWw)))<br />
 [PROV-IO: An I/O-Centric Provenance Framework for Scientific Data on HPC Systems](https://dl.acm.org/doi/10.1145/3502181.3531477) ([HPDC'22](https://www.hpdc.org/2022/)) [[Bibtex](https://github.com/hpc-io/prov-io/blob/master/doc/acm_3502181.3531477.bib)] <br /> 
 Other pulications:  <br /> 
 [Towards A Practical Provenance Framework for Scientific Data on HPC Systems](https://github.com/hpc-io/prov-io/blob/master/doc/FAST_22_WiP_PROV-IO.pdf) (poster@[FAST'22](https://www.usenix.org/conference/fast22)) <br />
-[PROV-IO+: A Cross-Platform Provenance Framework for Scientific Data on HPC Systems](https://arxiv.org/abs/2308.00891) (preprint)<br />
+
 
 ## Docker
 The easiest way of trying out PROV-IO is through ```docker```. PROV-IO ```docker``` image is available now at [rzhan/prov-io](https://hub.docker.com/repository/docker/rzhan/prov-io). The image is based on Debian 11 with Python 3.9 installed. Download the basic PROV-IO ```docker``` image:
